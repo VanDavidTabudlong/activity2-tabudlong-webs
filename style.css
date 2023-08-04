@@ -1,5 +1,179 @@
-head {
-    background-color: rgb(49, 119, 96);
+/* style.css */
 
-
-}
+/* Navbar */
+.navbar {
+    background-color: #2B1E2A;
+  }
+  
+  .navbar-brand {
+    color: #F2C6DD;
+    font-size: 24px;
+  }
+  
+  .nav-link {
+    color: #F2C6DD;
+  }
+  
+  .nav-link:hover {
+    color: #FF85C0;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-color: #1A101C;
+  }
+  
+  .title {
+    color: #F2C6DD;
+    font-size: 36px;
+  }
+  
+  .card-text {
+    color: #F2C6DD;
+  }
+  
+  .btn-primary {
+    background-color: #FF85C0;
+    border-color: #FF85C0;
+  }
+  
+  .btn-primary:hover {
+    background-color: #F26D9B;
+    border-color: #F26D9B;
+  }
+  
+  /* Search section */
+  .bg-dark {
+    background-color: #1A101C;
+  }
+  
+  .text-success {
+    color: #FF85C0;
+  }
+  
+  .form-control {
+    background-color: #2B1E2A;
+    color: #F2C6DD;
+    border-color: #FF85C0;
+  }
+  
+  .btn-outline-success {
+    color: #FF85C0;
+    border-color: #FF85C0;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #FF85C0;
+    color: #1A101C;
+  }
+  
+  /* Features section */
+  .bg3 {
+    background-color: #F2C6DD;
+  }
+  
+  .mybg {
+    background-color: #FF85C0;
+    color: #1A101C;
+  }
+  
+  .text-light {
+    color: #1A101C;
+  }
+  
+  .card-body {
+    background-color: #1A101C;
+    color: #F2C6DD;
+  }
+  
+  .card-title {
+    color: #FF85C0;
+    font-size: 24px;
+  }
+  
+  /* Ideas section */
+  .text-dark {
+    color: #1A101C;
+  }
+  
+  .text-primary {
+    color: #FF85C0;
+  }
+  
+  .text-warning {
+    color: #FF85C0;
+  }
+  
+  .modal-content {
+    background-color: #1A101C;
+    color: #F2C6DD;
+  }
+  
+  .modal-header {
+    background-color: #2B1E2A;
+    color: #F2C6DD;
+  }
+  
+  .modal-title {
+    color: #FF85C0;
+  }
+  
+  .btn-light {
+    background-color: #F2C6DD;
+    color: #1A101C;
+    border-color: #F2C6DD;
+  }
+  
+  .btn-light:hover {
+    background-color: #FF85C0;
+    color: #1A101C;
+    border-color: #FF85C0;
+  }
+  
+  /* Frequently Asked Questions */
+  .text-uppercase {
+    color: #FF85C0;
+  }
+  
+  .btn-link {
+    color: #FF85C0;
+  }
+  
+  .btn-link:hover {
+    color: #F2C6DD;
+  }
+  
+  /* The Meownistrators */
+  .bg2 {
+    background-color: #1A101C;
+  }
+  
+  .text-light {
+    color: #F2C6DD;
+  }
+  
+  .fs-1 {
+    font-size: 36px;
+  }
+  
+  .text-uppercase {
+    color: #FF85C0;
+  }
+  
+  /* Footer */
+  /* Reusing the .navbar styles */
+  
+  /* Custom styles for Kuromi theme */
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #F2C6DD;
+  }
+  
+  section h1,
+  section h5,
+  section p {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* You can add more custom styles specific to Kuromi theme here */
+  

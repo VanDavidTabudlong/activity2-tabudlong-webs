@@ -1,22 +1,251 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>Hello, modularity!</title>
-   
 
-  </head>
-  <body>
-  <!--navigation-->
-  <nav class="navbar navbar-exapnd-lg">
-        <div class="container bg-dark">\
-            <a href="#" class="navbar-brand">USTP CONeXT</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuromi and Friends</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
 
-        </div>
+<body>
 
+  <!-- Navbar -->
+  <nav class="navbar mybg">
+    <div class="container">
+      <a class="navbar-brand text-light">Kuromi and Friends</a>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Admin</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
- </body>
+  <!-- Hero section -->
+  <section class="hero mybg">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col">
+          <div class="mt-5 text-center text-light">
+            <h5 class="title">Welcome to the World of Kuromi</h5>
+            <p class="card-text">Embrace the kawaii culture with Kuromi and Friends. Explore the magical world filled with mischief, fun, and friendship. Join us and let's spread cuteness together!</p>
+            <a href="#" class="btn btn-primary">Join the Kawaii Adventure</a>
+          </div>
+        </div>
+        <div class="col">
+          <img class="card-img-top p-5 mb-5" src="images/kuromi-hero.jpg" alt="Card image cap">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search section -->
+  <section class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar justify-content-between">
+            <a class="navbar-brand text-success">Search</a>
+            <form class="form-inline d-flex p-2">
+              <input class="form-control mr-sm-2" type="search" placeholder="Explore Kuromi" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+            </form>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section class="bg3">
+    <div class="container">
+      <div class="row mx-auto p-5">
+        <div class="col-md-4 mb-4">
+          <div class="card text-center mb-3">
+            <div class="card-body mybg text-success">
+              <img src="images/playwithkuro.jpg" alt="Work and Play with Kuromi" class="img-fluid">
+              <h5 class="card-title">Work and Play with Kuromi</h5>
+              <p class="card-text">Get ready to work and play with your favorite Sanrio character, Kuromi. She will make your daily tasks extra enjoyable and full of mischief.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card text-center mb-4">
+            <div class="card-body mybg text-success">
+              <img src="images/kuromipet.webp" alt="Pet Your Adorable Kuromi" class="img-fluid">
+              <h5 class="card-title">Pet Your Adorable Kuromi</h5>
+              <p class="card-text">Meet adorable virtual pets inspired by Kuromi that are waiting for your love and care. Take care of them and experience the mischief they bring.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card text-center mb-4">
+            <div class="card-body mybg text-success">
+              <img src="images/kurocommunity.jpg" alt="Join the Cute Kuromi Community" class="img-fluid">
+              <h5 class="card-title">Join the Cute Kuromi Community</h5>
+              <p class="card-text">Join a warm and welcoming community of Kuromi lovers. Share your passion for mischief and spread the fun together.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Ideas section -->
+  <section class="text-dark text-sm-start bg3 p-5">
+    <div class="container">
+      <div class="row bg-light p-5">
+        <div class="col-sm-6">
+          <h1 class="text-primary">Let's Turn Your <span class="text-warning"><strong>Kawaii Ideas</strong></span> Into a Reality</h1>
+          <p class="lead my-4 text-primary">
+            Share your kawaii ideas with the Kuromi community and let's turn them into something magical. Embrace cuteness and create wonderful memories together!
+          </p>
+          <button class="btn btn-light btn-lg fw-bold d-block mx-auto" data-bs-toggle="modal" data-bs-target="#Connect">Connect With Us!</button>
+        </div>
+        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+          <img src="images/kuromi ideas.jpg" alt="" class="img-fluid d-none d-sm-block hide-on-sm">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row p-5 mt-5">
+        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+          <img src="images/kuromiadventure.jpg" alt="" class="img-fluid d-none d-sm-block hide-on-sm">
+        </div>
+        <div class="col-sm-6">
+          <h1 class="text-primary">Kuromi <span class="text-warning"><strong>Adventure Awaits</strong></span></h1>
+          <p class="lead my-4 text-primary">
+            Enter the magical world of Kuromi and her friends. An adventure filled with mischief and cuteness is waiting for you. Join now and make every day extra special!
+          </p>
+          <button class="btn btn-light btn-lg fw-bold d-block mx-auto" id="faq" data-bs-toggle="modal" data-bs-target="#Connect">Connect With Us!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frequently Asked Questions -->
+  <section>
+    <div class="text-center fs-1 fw-bold">
+      <p class="text-uppercase">Frequently Asked Questions</p>
+    </div>
+    <!-- Accordion -->
+    <div>
+      <div>
+        <div>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is Kuromi and Friends?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Kuromi and Friends is a magical world of cuteness and mischief. Kuromi, the adorable Sanrio character, leads this fun-filled journey of friendship and joy.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How can I join the Kuromi community?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Joining the Kuromi community is easy! Sign up on our website and become a part of the kawaii adventure. Make friends, share mischief, and enjoy the cuteness overload!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Are there virtual pets in Kuromi and Friends?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Yes! Meet the mischievous virtual pets inspired by Kuromi. Take care of them and experience endless fun and joy together. They will make your life extra cute!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The sanrio -->
+  <section class="bg2 text-light p-5">
+    <div class="container text-center fs-1 fw-bold">
+      <p class="text-uppercase">Meet Kuromi and Her Friends</p>
+      <p class="text-center fs-5">Introducing the adorable characters of Kuromi and Friends who spread cuteness and mischief all around. They are here to make your journey extra special!</p>
+    </div>
+    <div class="container row justify-content-center">
+      <div class="col card" style="width: 18rem;">
+        <img class="card-img-top rounded-circle p-5" src="images/san2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Kuromi - The leader of cuteness and mischief.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top rounded-circle p-5" src="images/san3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Purin - The sweet and lovable friend of Kuromi.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top rounded-circle p-5" src="images/san4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Cinnamoroll - The fluffy and adorable companion.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top rounded-circle p-5" src="images/san5.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">My Melody - The cute and gentle soul.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+    <nav class="navbar mybg">
+      <div class="container justify-content-center">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
 </html>
